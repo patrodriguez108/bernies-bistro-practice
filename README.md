@@ -34,7 +34,7 @@ When the user wants to list all recipes, it should print something like this to 
 When the user wants to display a single recipe, it should print something like this to the console:
 
 ```
-	1 - Kale Burger
+	Recipe 111 - Kale Burger 
 	The Kale Burger is one of our best selling dishes!
 	it combines the nutritional value of kale with
 	the taste of cow!
@@ -73,7 +73,7 @@ Then write tests that exercise those use cases. Use `bistro_spec.rb` for your te
 For example, if you want to be able to look at a recipe, you might write some code like this:
 
 ```ruby
-expect(bistro.find_recipe_by_id(2).name).to eq("Peanut Butter Coffee Brownie")
+expect(bistro.find_recipe_by_id(567).name).to eq("Peanut Butter Coffee Brownie")
 ```
 
 ### Release 1 : Implement the MVP
