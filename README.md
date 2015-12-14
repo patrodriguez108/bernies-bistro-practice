@@ -11,9 +11,9 @@
 
 ## Summary
 
-Congratulations! Your hard work modeling an orange grove for Fran the Farmer has paid off! She's referred you to her friend Bernie, owner of the popular cafe, Bernie's Bistro.
+Congratulations! Your hard work modeling an orange grove for Fran the Farmer has paid off! She's referred you to her friend Bernie, owner of the popular restaurant, Bernie's Bistro.
 
-Bernie hired another programmer to build a computerized recipe system for the Bistro, but they didn't finish the job before moving on to an "exciting stealth mode opportunity in the virtual unicorn party space." Bernie needs someone to **finish the Bistro's recipe system**; and that person is YOU.
+Bernie hired another programmer to build a computerized recipe system for the Restaurant, but they didn't finish the job before moving on to an "exciting stealth mode opportunity in the virtual unicorn party space." Bernie needs someone to **finish the Restaurant's recipe system**; and that person is YOU.
 
 
 #### Recipe System Use Cases:
@@ -68,7 +68,7 @@ Be systematic in your approach. Write down what you tried, what you thought woul
 
 Write down the main use cases for this program.
 
-Then write tests that exercise those use cases. Use `bistro_spec.rb` for your test code.
+Then write tests that exercise those use cases. Use `restaurant_spec.rb` for your test code.
 
 For example, if you want to be able to look at a recipe, you might write some code like this:
 

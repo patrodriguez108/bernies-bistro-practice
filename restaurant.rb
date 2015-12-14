@@ -3,7 +3,7 @@ class Recipe
 
 end
 
-class Bistro
+class Restaurant
   def initialize
     @recipes = []
   end
@@ -33,7 +33,7 @@ end
 if ARGV.any?
 
   # I wonder if I could clean this up...
-  bistro = Bistro.new
+  bistro = Restaurant.new
   bistro.load_recipes("recipes.csv")
 
   if ARGV[0] == "list"
