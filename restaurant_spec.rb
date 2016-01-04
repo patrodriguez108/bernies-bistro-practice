@@ -3,7 +3,7 @@ require_relative('restaurant')
 describe Recipe do
 end
 
-describe Restaurant do
+describe RecipeBook do
 
   it 'should load recipes' do
   end
