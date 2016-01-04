@@ -1,4 +1,4 @@
-require_relative('restaurant')
+require_relative('recipe_system')
 
 describe Recipe do
 end
