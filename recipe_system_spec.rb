@@ -1,9 +1,9 @@
-require_relative('bistro')
+require_relative('recipe_system')
 
 describe Recipe do
 end
 
-describe Bistro do
+describe RecipeBook do
 
   it 'should load recipes' do
   end

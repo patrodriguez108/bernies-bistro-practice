@@ -3,7 +3,7 @@ class Recipe
 
 end
 
-class Bistro
+class RecipeBook
   def initialize
     @recipes = []
   end
@@ -33,12 +33,12 @@ end
 if ARGV.any?
 
   # I wonder if I could clean this up...
-  bistro = Bistro.new
-  bistro.load_recipes("recipes.csv")
+  recipe_book = RecipeBook.new
+  recipe_book.load_recipes("recipes.csv")
 
   if ARGV[0] == "list"
     raise "TODO: implement listing of recipes"
   elsif ARGV[0] == "display"
-    puts bistro.find_recipe_by_id(ARGV[1])
+    puts recipe_book.find_recipe_by_id(ARGV[1])
   end
 end
