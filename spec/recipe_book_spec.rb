@@ -1,8 +1,4 @@
-require_relative "../recipe"
 require_relative "../recipe_book"
-
-describe Recipe do
-end
 
 describe RecipeBook do
 
