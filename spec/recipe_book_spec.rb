@@ -2,9 +2,6 @@ require_relative "../recipe_book"
 
 describe RecipeBook do
 
-  xit 'should load recipes' do
-  end
-
   describe "#find_recipe_by_id" do
     xit 'should find a recipe by id' do
     end
