@@ -17,19 +17,25 @@ The recipe system should support two uses:  (1) users should be able to list all
 
 
 ## Releases
-### Release 0: Find the Edges
+### Pre-Release:  Review the Code Base
+As mentioned in the *Summary*, the previous developer left some code.  Review the provided code.  How was the developer approaching the problem?  Does this approach make sense?  Are there things you would do differently?  Are there things you would keep?
+ 
 
-When the user wants to list all recipes, the program should print something like this to the console:
+### Release 1: Implement the Minimum Viable Product
+Building on the provided code base, implement the use cases described in the *Summary* and shown in Figure 1.  Remember, Bernie wants a working application soon, so we need to focus on just these features.
+
+To recap how the program works, when users want to list all recipes, the program should display something like Figure 2.  When users want to see the details for a particular recipe, the program should display something like Figure 3.
 
 ```
+$ ruby recipe_system.rb list
 111. Kale Burger
 938. Poodle Cake (For your puppy!)
 567. Peanut Butter Coffee Brownie
 ```
-
-When the user wants to display a single recipe, it should print something like this to the console:
+*Figure 2*.  Listing all the recipes.
 
 ```
+$ ruby recipe_system.rb display 111
 Recipe 111 - Kale Burger 
 The Kale Burger is one of our best selling dishes!
 It combines the nutritional value of kale with
@@ -42,39 +48,16 @@ Preparation Instructions:
 Preheat the oven to 500 degrees. Put in a cow. Wait 10 minutes.
 Put in some kale. Take out cow and kale. Put on bun. Serve HOT!
 ```
+*Figure 3*.  Displaying a specific recipe.
+
+*Note:*  Your top priority is to create a functioning recipe system.  There are a couple tests the spec files which should be completed. You're welcome to write more tests if you desire, but you are *not required* to do so. You have a limited amount of time; be mindful of how you spend it.  Tests alone cannot demonstrate your learning from the last two weeks.  Focus on implementation.
 
 
-Try to get the existing recipe system to raise errors by interacting with it via the command-line. Try all sorts of crazy things. The code is dirty and incomplete; you may have to clean it up.
+### Release 2:  Recipes in Alphabetical Order (Optional)
+Congratulations on making it this far.  This release is optional.  If you would like to attempt this release, first commit your code locally so that if necessary, you can revert back to *Release 1*.
 
-Be systematic in your approach. Write down what you tried, what you thought would happen, and what actually happened.
+Currently, the recipe system lists recipes in whatever order they happen to be in.  Bernie would like to see the recipes listed alphabetically by name.  In addition, while the recipe objects' ids should remain unchanged, the list should number recipes sequentially:  1, 2, 3, etc.  Users should then be able to display a specific recipe by providing the number from the list, not the recipe's actual id.  (See Figure 4.)
 
-Write down the main use cases for this program.  Then write tests that exercise those use cases. Use `recipe_system_spec.rb` for your test code.  For example, if you want to be able to look at a recipe, you might write some code like this:
+![optional feature animation](readme-assets/optional-animation.gif)
+*Figure 4*.  Listing and numbering recipes by alphabetical order.
 
-```ruby
-expect(recipe_book.find_recipe_by_id(567).name).to eq("Peanut Butter Coffee Brownie")
-```
-
-
-*Note:*  Your top priority is to create a functioning implementation of the described recipe system. Be mindful of how you spend your time.
-
-There are three basic tests to fill in the spec file.  You are _not_ required to add your own tests in this challenge, but you're welcome to if you so desire. You have a limited amount of time, and tests alone cannot demonstrate your learning from the last two weeks. Focus on implementation first.
-
-
-### Release 1: Implement the MVP
-MVP == Minimum Viable Product.
-
-Implement the use cases that were not completed or completed incorrectly by the previous consultant, as revealed by the errors you got the program to raise or the driver code you wrote.
-
-
-### Release 2: Order Recipes in Alphabetical Order (Optional)
-Congratulations on making it this far. Make sure you commit your code locally so you can revert back to *Release 1* if you need to. Then you can attack *Release 2*, if you would like to.
-
-When you list the recipes now, the display should be something like ...
-
-```
-1. Kale Burger
-2. Peanut Butter Coffee Brownie
-3. Poodle Cake (For your puppy!)
-```
-
-The display number is different from the recipe's id.  How can you accommodate this new listing format?
