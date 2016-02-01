@@ -1,4 +1,5 @@
-require_relative('recipe_system')
+require_relative "../recipe"
+require_relative "../recipe_book"
 
 describe Recipe do
 end
