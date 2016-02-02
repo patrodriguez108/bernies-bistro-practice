@@ -50,7 +50,7 @@ Put in some kale. Take out cow and kale. Put on bun. Serve HOT!
 ```
 *Figure 3*.  Displaying a specific recipe.
 
-*Note:*  Your top priority is to create a functioning recipe system.  There are a couple tests the spec files which should be completed. You're welcome to write more tests if you desire, but you are *not required* to do so. You have a limited amount of time; be mindful of how you spend it.  Tests alone cannot demonstrate your learning from the last two weeks.  Focus on implementation.
+*Note:*  Your top priority is to create a functioning recipe system.  There are a couple of tests the spec files which should be completed. You're welcome to write more tests if you desire, but you are *not required* to do so. You have a limited amount of time; be mindful of how you spend it.  Tests alone cannot demonstrate your learning from the last two weeks.  Focus on implementation.
 
 
 ### Release 2:  Recipes in Alphabetical Order (Optional)
