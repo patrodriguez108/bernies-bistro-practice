@@ -24,7 +24,7 @@ As mentioned in the *Summary*, the previous developer left some code.  Review th
 ### Release 1: Implement the Minimum Viable Product
 Building on the provided code base, implement the use cases described in the *Summary* and shown in Figure 1.  Remember, Bernie wants a working application soon, so we need to focus on just these features.
 
-To recap how the program works, when users want to list all recipes, the program should display something like Figure 2.  When users want to see the details for a particular recipe, the program should display something like Figure 3 ... unless no recipe with the given id exists, then an error should be raised.
+To recap how the program works, when users want to list all recipes, the program should display something like Figure 2.  When users want to see the details for a particular recipe, the program should display something like Figure 3 ... unless no recipe with the given id exists, then an error should be raised (see Figure 1).
 
 ```
 $ ruby recipe_system.rb list
