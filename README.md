@@ -56,7 +56,7 @@ Put in some kale. Take out cow and kale. Put on bun. Serve HOT!
 ### Release 2:  Recipes in Alphabetical Order (Optional)
 Congratulations on making it this far.  This release is optional.  If you would like to attempt this release, first commit your code locally so that if necessary, you can revert back to *Release 1*.
 
-Currently, the recipe system lists recipes in whatever order they happen to be in.  Bernie would like to see the recipes listed alphabetically by name.  In addition, while the recipe objects' ids should remain unchanged, the list should number recipes sequentially:  1, 2, 3, etc.  Users should then be able to display a specific recipe by providing the number from the list, not the recipe's actual id.  (See Figure 4.)
+Currently, the recipe system lists recipes in whichever order they happen to be.  Bernie would like to see the recipes listed alphabetically by name.  (See Figure 4.)
 
 ![optional feature animation](readme-assets/optional-animation.gif)  
 *Figure 4*.  Listing and numbering recipes by alphabetical order.
