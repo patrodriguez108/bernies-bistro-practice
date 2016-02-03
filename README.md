@@ -59,5 +59,5 @@ Congratulations on making it this far.  This release is optional.  If you would 
 Currently, the recipe system lists recipes in whichever order they happen to be.  Bernie would like to see the recipes listed alphabetically by name.  (See Figure 4.)
 
 ![optional feature animation](readme-assets/optional-animation.gif)  
-*Figure 4*.  Listing and recipes in alphabetical order by name.
+*Figure 4*.  Listing recipes in alphabetical order by name.
 
