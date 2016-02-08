@@ -19,7 +19,7 @@ The recipe system should support two uses:  (1) users should be able to list all
 ## Releases
 ### Pre-Release:  Review the Code Base
 As mentioned in the *Summary*, the previous developer left some code.  Review the provided code.  How was the developer approaching the problem?  Does this approach make sense?  Are there things you would do differently?  Are there things you would keep?
- 
+
 
 ### Release 1: Implement the Minimum Viable Product
 Building on the provided code base, implement the use cases described in the *Summary* and shown in Figure 1.  Remember, Bernie wants a working application soon, so we need to focus on just these features.
@@ -28,15 +28,15 @@ To recap how the program works, when users want to list all recipes, the program
 
 ```
 $ ruby recipe_system.rb list
-111. Kale Burger
-938. Poodle Cake (For your puppy!)
-567. Peanut Butter Coffee Brownie
+567 - Peanut Butter Coffee Brownie
+938 - Bull Terrier Cake (for a puppy)
+111 - Kale Burger
 ```
 *Figure 2*.  Listing all the recipes.
 
 ```
 $ ruby recipe_system.rb display 111
-Recipe 111 - Kale Burger 
+Recipe 111 - Kale Burger
 The Kale Burger is one of our best selling dishes!
 It combines the nutritional value of kale with
 the taste of cow!
@@ -50,7 +50,7 @@ Put in some kale. Take out cow and kale. Put on bun. Serve HOT!
 ```
 *Figure 3*.  Displaying a specific recipe.
 
-*Note:*  Your top priority is to create a functioning recipe system.  There are a couple of tests the spec files which should be completed. You're welcome to write more tests if you desire, but you are *not required* to do so. You have a limited amount of time; be mindful of how you spend it.  Tests alone cannot demonstrate your learning from the last two weeks.  Focus on implementation.
+*Note:*  Your top priority is to create a functioning recipe system.  There are a couple of tests in the spec files which should be completed. You're welcome to write more tests if you desire, but you are *not required* to do so. You have a limited amount of time; be mindful of how you spend it.  Tests alone cannot demonstrate your learning from the last two weeks.  Focus on implementation.
 
 
 ### Release 2:  Recipes in Alphabetical Order (Optional)
