@@ -54,7 +54,7 @@ Put in some kale. Take out cow and kale. Put on bun. Serve HOT!
 
 
 ### Release 1:  Recipes in Alphabetical Order (Optional)
-Congratulations on making it this far.  This release is optional.  If you would like to attempt this release, first commit your code locally so that if necessary, you can revert back to *Release 1*.
+Congratulations on making it this far.  This release is optional.  If you would like to attempt this release, first commit your code locally so that if necessary, you can revert back to *Release 0*.
 
 Currently, the recipe system lists recipes in whichever order they happen to be.  Bernie would like to see the recipes listed alphabetically by name.  (See Figure 4.)
 
