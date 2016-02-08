@@ -21,7 +21,7 @@ The recipe system should support two uses:  (1) users should be able to list all
 As mentioned in the *Summary*, the previous developer left some code.  Review the provided code.  How was the developer approaching the problem?  Does this approach make sense?  Are there things you would do differently?  Are there things you would keep?
 
 
-### Release 1: Implement the Minimum Viable Product
+### Release 0: Implement the Minimum Viable Product
 Building on the provided code base, implement the use cases described in the *Summary* and shown in Figure 1.  Remember, Bernie wants a working application soon, so we need to focus on just these features.
 
 To recap how the program works, when users want to list all recipes, the program should display something like Figure 2.  When users want to see the details for a particular recipe, the program should display something like Figure 3 ... unless no recipe with the given id exists, then an error should be raised (see Figure 1).
@@ -53,7 +53,7 @@ Put in some kale. Take out cow and kale. Put on bun. Serve HOT!
 *Note:*  Your top priority is to create a functioning recipe system.  There are a couple of tests in the spec files which should be completed. You're welcome to write more tests if you desire, but you are *not required* to do so. You have a limited amount of time; be mindful of how you spend it.  Tests alone cannot demonstrate your learning from the last two weeks.  Focus on implementation.
 
 
-### Release 2:  Recipes in Alphabetical Order (Optional)
+### Release 1:  Recipes in Alphabetical Order (Optional)
 Congratulations on making it this far.  This release is optional.  If you would like to attempt this release, first commit your code locally so that if necessary, you can revert back to *Release 1*.
 
 Currently, the recipe system lists recipes in whichever order they happen to be.  Bernie would like to see the recipes listed alphabetically by name.  (See Figure 4.)
