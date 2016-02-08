@@ -10,7 +10,7 @@ The other programmer was to have already completed the system, and Bernie would 
 
 
 ### Recipe System Use Cases
-![required use cases](readme-assets/required-animation.gif)
+![required use cases](readme-assets/required-animation.gif)  
 *Figure 1*. Example usage, listing all recipes and displaying a specific recipe.
 
 The recipe system should support two uses:  (1) users should be able to list all the recipes in the system and (2) users should be able to display the details for a specific recipe.  Figure 1 displays both of these uses and how Bernie would like to run the application.
@@ -58,6 +58,6 @@ Congratulations on making it this far.  This release is optional.  If you would 
 
 Currently, the recipe system lists recipes in whichever order they happen to be.  Bernie would like to see the recipes listed alphabetically by name.  (See Figure 4.)
 
-![optional feature animation](readme-assets/optional-animation.gif)
+![optional feature animation](readme-assets/optional-animation.gif)  
 *Figure 4*.  Listing recipes in alphabetical order by name.
 
