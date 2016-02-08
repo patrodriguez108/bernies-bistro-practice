@@ -28,9 +28,9 @@ To recap how the program works, when users want to list all recipes, the program
 
 ```
 $ ruby recipe_system.rb list
-111. Kale Burger
-938. Poodle Cake (For your puppy!)
-567. Peanut Butter Coffee Brownie
+567 - Peanut Butter Coffee Brownie
+938 - Bull Terrier Cake (for a puppy)
+111 - Kale Burger
 ```
 *Figure 2*.  Listing all the recipes.
 
