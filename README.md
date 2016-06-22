@@ -18,7 +18,7 @@ The recipe system should support two uses:  (1) users should be able to list all
 
 ## Releases
 ### Pre-Release:  Review the Code Base
-As mentioned in the *Summary*, the previous developer left some code.  Review the provided code.  How was the developer approaching the problem?  Does this approach make sense?  Are there things you would do differently?  Are there things you would keep?
+As mentioned in the *Summary*, the previous developer left some code.  Review the provided code.  Don't assume that the previous developer made good design choices or that the code works.  How was the developer approaching the problem?  Does this approach make sense?  Are there things you would do differently?  Are there things you would keep?
 
 
 ### Release 0: Implement the Minimum Viable Product
