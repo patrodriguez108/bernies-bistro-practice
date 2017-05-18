@@ -37,16 +37,13 @@ $ ruby recipe_system.rb list
 ```
 $ ruby recipe_system.rb display 111
 Recipe 111 - Kale Burger
-The Kale Burger is one of our best selling dishes!
-It combines the nutritional value of kale with
-the taste of cow!
+Combining the taste of cow with the nutrition of kale!
 
 Ingredients:
 Kale, Cow
 
 Preparation Instructions:
-Preheat the oven to 500 degrees. Put in a cow. Wait 10 minutes.
-Put in some kale. Take out cow and kale. Put on bun. Serve HOT!
+Preheat oven to 500 degrees, put in a cow. Wait 10 minutes. Put in some kale. Take out cow and kale. Put on bun. Serve HOT!
 ```
 *Figure 3*.  Displaying a specific recipe.
 
