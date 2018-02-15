@@ -1,14 +1,16 @@
+require 'csv'
+
+require_relative 'recipe'
+
 class RecipeBook
   def initialize
     @recipes = []
   end
 
   def load_recipes(filename)
-    # I need to finish this before I give Bernie the program...
-
-    # The CSV file looks like this:
-    # "id", "name", "description", "ingredients", "directions"
-
+    CSV.foreach(filename, headers: true) do |row|
+      p row
+    end
   end
 
   def find_recipe_by_id(recipe_id)
