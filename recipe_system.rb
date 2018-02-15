@@ -13,6 +13,14 @@ if ARGV.any?
     	puts "#{list.id} - #{list.name}"
     end
   elsif ARGV[0] == "display"
-    puts recipe_book.find_recipe_by_id(ARGV[1])
+    displayed_recipe = recipe_book.find_recipe_by_id(ARGV[1])[0]
+    puts "Recipe #{displayed_recipe.id} - #{displayed_recipe.name}"
+    puts "#{displayed_recipe.description}"
+    puts ""
+    puts "Ingredients:"
+    puts "#{displayed_recipe.ingredients}"
+    puts ""
+    puts "Preparation Instructions:"
+    puts "#{displayed_recipe.directions}"
   end
 end
