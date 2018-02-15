@@ -9,7 +9,9 @@ if ARGV.any?
   recipe_book.load_recipes("recipes.csv")
 
   if ARGV[0] == "list"
-    raise "TODO: implement listing of recipes"
+    recipe_book.recipe_list.each do |list|
+    	puts "#{list.id} - #{list.name}"
+    end
   elsif ARGV[0] == "display"
     puts recipe_book.find_recipe_by_id(ARGV[1])
   end
