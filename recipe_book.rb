@@ -3,19 +3,19 @@ require 'csv'
 require_relative 'recipe'
 
 class RecipeBook
-  attr_reader :recipes
+  attr_reader :recipe_list
 
   def initialize
-    @recipes = []
+    @recipe_list = []
   end
 
   def load_recipes(filename)
     CSV.foreach(filename, headers: true) do |row|
-      recipes << Recipe.new(id: row[0],
-                            name: row[1],
-                            description: row[2],
-                            ingredients: row[3],
-                            directions: row[4])
+      recipe_list << Recipe.new(id: row[0],
+                                name: row[1],
+                                description: row[2],
+                                ingredients: row[3],
+                                directions: row[4])
     end
   end
 
