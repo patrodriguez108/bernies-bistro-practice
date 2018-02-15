@@ -1,4 +1,11 @@
 class Recipe
-  # I need to finish this before I give Bernie the program...
-
+	attr_reader :id, :name, :description, :ingredients, :directions
+  
+  def initialize(args = {})
+  	@id = args.fetch(:id, 0)
+  	@name = args.fetch(:name, '')
+  	@description = args.fetch(:description, '')
+  	@ingredients = args.fetch(:ingredients, '')
+  	@directions = args.fetch(:directions, '')
+  end
 end
